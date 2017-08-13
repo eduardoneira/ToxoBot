@@ -6,18 +6,18 @@ set(CMAKE_CXX_STANDARD 11)
 set(CURL_LIBRARY "-lcurl")
 find_package(CURL REQUIRED)
 
-set(MESSAGE_PARSER
-        src/MessageParser.cpp
-        include/MessageParser.hpp)
+set(MESSAGE
+		src/Message.cpp
+		include/Message.hpp)
 
-set(SOURCE_FILES main.cpp ${MESSAGE_PARSER})
+set(SOURCE_FILES main.cpp ${MESSAGE})
 add_executable(ToxoBot ${SOURCE_FILES})
 
 #TESTS
 
 set(TEST_SOURCES
-        tests/MessageParserTest.cpp
-        ${MESSAGE_PARSER})
+        tests/MessageTest.cpp
+        ${MESSAGE})
 
 add_executable(tests
                 tests/include/main.cpp
