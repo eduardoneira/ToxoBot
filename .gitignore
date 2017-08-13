@@ -8,3 +8,6 @@ cmake-build-debug/
 toxobot.sublime-project
 toxobot.sublime-workspace
 build/
+
+#libpqxx
+libpqxx/
