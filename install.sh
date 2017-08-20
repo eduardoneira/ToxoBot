@@ -1,14 +1,11 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
-# Install curl
-sudo apt-get install libcurl4-openssl-dev
+echo "Starting Toxobot instalation"
 
-#Install postgresql and libpqxx
-sudo apt-get install postgresql
-sudo apt-get install libpq-dev
+cd setup/
 
-git clone https://github.com/jtv/libpqxx.git
-cd libpqxx
-./configure
-make
-sudo make install
+./python.sh
+
+cd ..
+
+echo "Setup finished"
