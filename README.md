@@ -1,2 +1,3 @@
 # ToxoBot
-Whatsapp bot using yowsup
+
+Telegram bot for Toxos

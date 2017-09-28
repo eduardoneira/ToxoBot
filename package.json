@@ -1,0 +1,24 @@
+{
+  "name": "toxobot_server",
+  "version": "0.0.1",
+  "description": "Server for telegram bot ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardoneira/ToxoBot.git"
+  },
+  "author": "Eduardo Neira",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/eduardoneira/ToxoBot/issues"
+  },
+  "homepage": "https://github.com/eduardoneira/ToxoBot#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.0"
+  }
+}
