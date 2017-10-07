@@ -4,7 +4,8 @@
   "description": "Server for telegram bot ",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "echo \"No tests implemented\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
